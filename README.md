@@ -1,7 +1,3 @@
-Sure! Here's the full `README.md` content formatted for easy copy-paste into **VS Code**:
-
----
-
 ```markdown
 # Node.js Core Modules Practice
 
@@ -17,9 +13,11 @@ This project aims to provide a clear and concise understanding of:
 
 ---
 
-## 📁 Directory Structure
+
 
 ```
+## 📁 Directory Structure
+
 nodejs_core/
 │
 ├── cryptoModule.js        # Usage of the 'crypto' module
@@ -42,7 +40,7 @@ nodejs_core/
 
 ### 1. Clone the Repository
 
-```bash
+```npm
 git clone https://github.com/officialTechBro/nodejs_core.git
 cd nodejs_core
 ```
@@ -51,13 +49,13 @@ cd nodejs_core
 
 Each module can be executed independently using Node.js:
 
-```bash
+```npm
 node fsModule.js
 ```
 
 To run the HTTP server:
 
-```bash
+```npm
 node server.js
 ```
 
@@ -82,11 +80,7 @@ node server.js
 
 The `server.js` script spins up a basic HTTP server and routes incoming requests to different handlers based on the URL and HTTP method. The `postController.js` handles logic for `POST` requests specifically.
 
-Example:
 
-```bash
-curl -X POST http://localhost:3000/posts -d "Hello World"
-```
 
 ---
 
@@ -121,6 +115,5 @@ This project is licensed under the MIT License.
 ## 👤 Author
 
 **[officialTechBro](https://github.com/officialTechBro)**  
-Follow for more Node.js learning resources and hands-on projects!
 ```
 
